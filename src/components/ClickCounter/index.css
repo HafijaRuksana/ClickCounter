@@ -1,0 +1,42 @@
+/* Write your CSS here */
+body {
+  motion: 0;
+}
+* {
+  box-sizing: content-box;
+}
+
+.card-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2d3a35;
+}
+
+.spanCount {
+  color: #c20a72;
+}
+.paragraph {
+  font-size: 30px;
+  color: #2d3a35;
+}
+.Button {
+  background-color: #007bff;
+  height: 35px;
+  width: 95px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+}
